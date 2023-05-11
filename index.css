@@ -1,0 +1,92 @@
+body {
+    margin: 0 auto;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Smythe', cursive;
+    text-align: center;
+    font-weight: 400;
+    width:600px;
+    position: relative;
+} 
+
+header {
+    background-image: url(images/burger.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 600px;
+    height:167px;
+    left:0;
+    top:0;
+    color:#fff;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.hidden {
+    display:none;
+}
+
+
+/* Main menu */
+
+#main-menu {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top:100px;
+    gap:20px;
+}
+
+.menu-h3 {
+    font-size:28px;
+    line-height: 16.8px;
+}
+
+.menu-ingredients {
+    font-size:16px;
+    line-height: 24px;
+    
+}
+
+.menu-price {
+    font-size:20px;
+    line-height: 24px;
+}
+
+.order-logo {
+    position: absolute;
+    left:0;
+    top:25px;
+    font-size:78.72px;
+}
+
+.order {
+    position: relative;
+    width:504px;
+    height:250px;
+    border-bottom:1px solid #D2D2D2;
+}
+
+.order-btn {
+    position: absolute;
+    right:0;
+    top:50px;
+    font-size:32px;
+    line-height: 24px;
+    border:1.5px solid #DEDEDE;
+    background-color: #fff;
+    border-radius:50%;
+    width:50px;
+    height:50px;
+}
+
+.order-btn:hover,
+.order-btn:active {
+    background-color:#999;
+}
+
+
